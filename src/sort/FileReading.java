@@ -10,7 +10,7 @@ public class FileReading {
 	
 	public static Integer[] readFileForList(String cnt) throws IOException {
 		List list = new ArrayList();
-		BufferedReader br = new BufferedReader(new FileReader("C:/Users/Administrator/Desktop/[Al]03/test_"+cnt+".txt"));
+		BufferedReader br = new BufferedReader(new FileReader("C:/Users/Administrator/Desktop/알고리즘/[Al]실습4주차/test_"+cnt+".txt"));
 		
 		int i = 0;
         while(true) {
